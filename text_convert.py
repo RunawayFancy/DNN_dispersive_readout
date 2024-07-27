@@ -10,7 +10,8 @@ which_convert = 'test' # 'train'
 
 test_lab_set = ['ground', 'pix', 'piy', 'halfpix', 'halfpiy', 'halfpixy', 'halfpiyx']
 train_lab_set = ['ground', 'excited']
-default_pth = 'Data/tomo_train_240608/'
+default_pth = 'Data/tomo_train_240608/' # High/low fidelity data should be saparate in different experiment
+# e.g., `tomo_train_HF_240608`; `tomo_train_LF_240608`
 convert_set = {'train': [train_lab_set, 'train/'], 'test': [test_lab_set, 'test/']}
 
 
@@ -48,6 +49,7 @@ if __name__ == '__main__':
             for data in all_data:
                 output_csv.write(','.join(map(str, data)) + '\n')
 # %%
+# This code block is invalid now
 
 ### -------------------------###
 # Change this to choose which set to convert
