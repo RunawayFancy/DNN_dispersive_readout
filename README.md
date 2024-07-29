@@ -4,7 +4,7 @@
 
 This code is the base code of our work.
 
-> You, Z., Duan, J., Huang, W., Zhang, L., Liu, S., Zhong, Y. and Ian, H., 2023. Neural network based time-resolved state tomography of superconducting qubits. arXiv preprint arXiv:2312.07958.
+> You, Z., Duan, J., Huang, W., Zhang, L., Liu, S., Zhong, Y. and Ian, H., 2023. Neural network based time-resolved state tomography of superconducting qubits. _arXiv preprint arXiv:2312.07958._
 
 ## Folder structure for data converting
 
