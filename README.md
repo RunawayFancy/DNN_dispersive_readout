@@ -1,5 +1,11 @@
 # Notes for running the scripts
 
+## About
+
+This code is the base code of our work.
+
+> You, Z., Duan, J., Huang, W., Zhang, L., Liu, S., Zhong, Y. and Ian, H., 2023. Neural network based time-resolved state tomography of superconducting qubits. arXiv preprint arXiv:2312.07958.
+
 ## Folder structure for data converting
 
 All raw data, converted data, and train/test result are stored inside `Data/data_from_some_experiment/`.
