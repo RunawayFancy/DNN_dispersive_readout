@@ -22,7 +22,8 @@ class MLP(nn.Module):
             nn.ReLU(),
             nn.Linear(250,50),
             nn.ReLU(),
-            nn.Linear(50, 2) 
+            nn.Linear(50, 2)  # single label only need one output layer. 
+            # nn.Signmoid()
         )
 
     def forward(self, inputs):
